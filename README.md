@@ -10,8 +10,6 @@ go get github.com/chandraanwar91/exchange-currency
 # Usage and Demo
 
 Create the Docker image according to [Dockerfile](Dockerfile).
-This step uses Maven to build, test, and package the [Go application](app.go).
-The resulting image is 7MB in size.
 
 ```shell
 # This may take a few minutes.
@@ -19,6 +17,12 @@ $ docker-compose up
 ```
 
 # Notes
+For database I use bitbucket.org/liamstask/goose/src/master/ for migration
+
+```shell
+# run migration 
+$ goose up
+```
 
 For API Documentation I use swagger
 
