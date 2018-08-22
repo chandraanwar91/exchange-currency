@@ -6,6 +6,8 @@ This repository contains a forex application using golang programming language.
 ```shell
 go get github.com/chandraanwar91/exchange-currency
 ```
+Copy file configuration
+Copy File config.example.yaml to config.yaml and dbconf.example.yml to dbconf.yml in folder db
 
 # Usage and Demo
 
