@@ -1,0 +1,7 @@
+test:
+  driver: mysql
+  open: root:root@tcp(localhost:3306)/forex
+
+development:
+  driver: mysql
+  open: root:root@tcp(localhost:3306)/forex

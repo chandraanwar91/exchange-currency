@@ -1,0 +1,19 @@
+version: '2.1'
+
+services:
+  app:
+    image: exchange-currency
+    build: .
+    ports:
+      - 3000:3000
+  database:
+    image: mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_USER: gotest
+      MYSQL_PASSWORD: gotest
+      MYSQL_ROOT_PASSWORD: gotest
+      MYSQL_DATABASE: forex
+    volumes:
+      - /data:/var/lib/mysql
