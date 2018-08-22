@@ -4,7 +4,7 @@ This repository contains a forex application using golang programming language.
 
 # Installation
 ```shell
-go get github.com/chandraanwar91/shopee-test
+go get github.com/chandraanwar91/exchange-currency
 ```
 
 # Usage and Demo
