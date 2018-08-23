@@ -15,7 +15,6 @@ var doc = `{
         "title": "Forex",
         "version": "1.0"
     },
-    "host": "127.0.0.1:3001",
     "basePath": "/forex",
 	"schemes": [
 		"http"
